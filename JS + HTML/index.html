@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="./js-html.js" async></script>
+</head>
+<body>
+    <div id="main">
+            <input id="firstNumber" name='firstNumber' type='number' step='1' placeholder="Primer numero" required></input>
+            <label for="operations">Operacion:</label>
+            <select name="operations" id="operations">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <input id="secondNumber" name='secondNumber' type='number' step='1' placeholder="Segundo numero" required></input>
+            <button type='submit' id="calculate" name="calculate">Calcular</button> 
+            <p>Resultado: </p>
+            <p id="result" name="result"></p>
+    </div>
+</body>
+</html>

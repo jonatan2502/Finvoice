@@ -1,0 +1,6 @@
+1. ¿Qué es una API?
+Una Interfaz de Programación de Aplicaciones puede entenderse como un conjunto de protocolos/estándares para la comunicación entre dos aplicaciones, de manera que una aplicación pueda solicitar servicios y/o recursos a otra siguiendo ciertas reglas. Un ejemplo es la API de MercadoPago, la cual permite que un software independiente (e-comerce, por ejemplo) pueda procesar pagos electrónicos a través de la plataforma de MercadoPago, pero para ello deberá seguir los lineamientos establecidos por la API en cuanto a credenciales, formato de la solicitudes y respuestas, entre otros.
+
+
+2. ¿Qué es DOCTYPE HTML?
+Es un elemento que le indica al navegador (y a un programador) de que tipo de documento se trata. Se ubica en la primera línea del archivo html. No colocarlo puede conducir a errores de visualización por parte del navegador.
